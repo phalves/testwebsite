@@ -1,0 +1,11 @@
+HTTrack3.49-2 launched on Mon, 15 Feb 2021 01:04:25 at https://ghadaalmashaqbeh.github.io/
+(winhttrack https://ghadaalmashaqbeh.github.io/ -O "/Users/pauloalves/websites/personalPage" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 3 seconds : 50 links scanned, 49 files written (92289342 bytes overall) [92284910 bytes received at 1464839 bytes/sec], 62947 bytes transferred using HTTP compression in 11 files, ratio 37%, 7.2 requests per connection
+(No errors, 0 warnings, 0 messages)
