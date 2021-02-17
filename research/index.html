@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Research | Ghada Almashaqbeh</title>
+<title>Research | Paulo Henrique Alves</title>
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Research" />
 <meta property="og:locale" content="en_US" />
@@ -14,16 +14,16 @@
 <meta property="og:description" content="CSE - UConn" />
 <link rel="canonical" href="index.html" />
 <meta property="og:url" content="index.html" />
-<meta property="og:site_name" content="Ghada Almashaqbeh" />
+<meta property="og:site_name" content="Paulo Henrique Alves" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Research" />
 <script type="application/ld+json">
 {"@type":"WebPage","headline":"Research","url":"http://ghadaalmashaqbeh.github.io//research/","description":"CSE - UConn","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="../assets/main.css"><link type="application/atom+xml" rel="alternate" href="../feed.xml" title="Ghada Almashaqbeh" /></head>
+<link rel="stylesheet" href="../assets/main.css"><link type="application/atom+xml" rel="alternate" href="../feed.xml" title="Paulo Henrique Alves" /></head>
 <body><header class="site-header" role="banner">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="../index.html">Ghada Almashaqbeh</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="../index.html">Paulo Henrique Alves</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -33,7 +33,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="index.html">Research</a><a class="page-link" href="../publications/index.html">Publications</a><a class="page-link" href="../talks-and-panels/index.html">Talks and Panels</a><a class="page-link" href="../team/index.html">Team</a><a class="page-link" href="../teaching/index.html">Teaching</a></div>
+        <div class="trigger"><a class="page-link" href="../research/index.html">Research</a><a class="page-link" href="../publications/index.html">Publications</a><a class="page-link" href="../team/index.html">Team</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -46,7 +46,8 @@
   <div class="post-content">
     <h1 style="font-family: 'Comic Sans MS'">Research</h1>
 
-<p>My research interests span cryptography, computer systems security, and privacy. Broadly, I work on interdisciplinary projects that combine knowledge from various fields toward the design of secure systems and protocols. In my research, I look for real life problems and build solutions backed by rigorous theoretical foundations as well as efficient implementations and thorough performance testing. I am also interested in conceptual projects that contribute in bridging the gap between theory and practice of Cryptography. 
+<p>
+My research seeks the use of blockchain technology to address data regulation concerns, such as the presents in GDPR (General Data Protection Regulation) in Europe and the Brazilian Data Protection Law (Law n. 13.709/2018 - Lei Geral de Proteção de Dados Pessoais - LGPD). So, I have studied the LGPD application in the public health and education environment to identify the data subjects' rights and the data controllers' and processors' duties. To do so, my research group is developing an ontology to clarify the roles and entities involved. Furthermore, we have found that a data governance model is essential to companies' conformance with LGPD. In this sense, permissioned blockchain platforms are potential models to support LGPD data compliance. Therefore, we have studied the Hyperledger Fabric platform resources to define data governance in practice.
 <br />
 <br /></p>
 
@@ -54,18 +55,47 @@
 
 <ul>
   <li>
-    <p><strong>InterBC:</strong> Develop a generic framework for interoperability of various types of blockchains; permissionless with permissioned, PoW-based with PoS-based/etc., account-based model with UTXO-based, and many others. Also, explore to what extent such an interoperability framework will be helpful in the context of DeFi.</p>
+    <p><strong>Blockchain and Data Regulation:</strong> 
+      Investigate the main principles and legal bases in the LGPD appllied in the COVID-19 pandemic environment. This project aims to study how the permissioned blockchain technology can suport such data regulation. Furthermore, we are comparing diffrent data regulations, e.g., GDPR and Canadian data protection in regards to consent management in public health researches. After that, our roadmap considers the study of data governace in the educational sector, considering the privacy by design principles.
+    </p>
+    <p>
+      Papers related to this project:
+      <ul>
+        <li>
+          Alves, Paulo Henrique, Isabella Z. Frajhof, Fernando A. Correia, Clarisse De Souza, and Helio Lopes. &quot;<a href="https://www.researchgate.net/publication/346927154_Permissioned_Blockchains_Towards_Privacy_Management_and_Data_Regulation_Compliance">Permissioned Blockchains: Towards Privacy Management and Data Regulation Compliance."</a>, Legal Knowledge and Information Systems (JURIX 2020), DOI: 10.3233/FAIA200866, 2020.
+        </li>
+        <li>
+          Alves, Paulo Henrique, Isabella Z. Frajhof, Fernando A. Correia, Clarisse De Souza, and Helio Lopes. &quot;Controlling Personal Data Flow: An Ontology in the COVID-19 Outbreak Using a Permissioned Blockchain.", International Conference on Enterprise Information Systems (ICEIS 2021), DOI: [Acceped to be published in April], 2021.
+        </li>
+      </ul>
+    </p>
   </li>
   <li>
-    <p><strong>Gage MPC:</strong> Develop a new MPC model to circumvent the residual function lower bound on non-interactive MPC protocol (computing the functionality output on honest parties inputs and all combinations of adversarial inputs), and enforce complete fairness (either all parties learn the output or no one does). The project utilizes a blockchain in a novel way, incorporating smart contracts and (arbitrary) miners as participants. Monetary incentivised time lock capsules are used to economically incentivize participants to evaluate the intended MPC functionality, otherwise, miners will do that while collecting the participants collateral as a reward.</p>
+    <p><strong>Libra at Blockchain:</strong> 
+      The Libra at Blockchain is a RD&I project that aims to study blockchain in the Oil and Gas sector. Petrobras is the largest Oil and Gas company in Brazil and is the Libra's consortium operator. The first outcome was the BallotBR, a enterprise ballot based on the consortium rules using Hyperledger Fabric as a blockchain platform.
+    </p>
+    <p>
+      Papers related to this project:
+      <ul>
+        <li>
+          Pacheco, Flavia, Alves, Yang Ricardo Miranda, Elisson Michael Araujo, Paulo Henrique Alves, Rafael Nasser, Romulo Vianna, Marcus Moreno, Cristiane Lodi and Isabella Frajhof. <a href="https://www.researchgate.net/publication/348536281_Blockchain_digital_signatures_in_a_big_corporation_a_challenge_for_costs_management_sector">&quot;Distributed ledger technology in the oil and gas sector: Libra Ballot use case."</a>. Rio Oil and Gas (RO&G 2020), DOI: 10.48072/2525-7579.rog.2020.464, 2020.
+        </li>
+        <li>
+          Alves, Paulo Henrique Cardoso, Isabella Frajhof, Elisson Michael Araujo, Yang Ricardo Miranda, Rafael Nasser, Gustavo Robichez, Alessandro Garcia Cristiane Lodi, Flavia Pacheco and Marcus Moreno. &quot;A Blockchain-Based Architecture for Enterprise Ballot.". International Conference on Enterprise Information Systems (ICEIS 2021), DOI: [Acceped to be published in April], 2021.
+        </li>
+      </ul>
+    </p>
   </li>
   <li>
-    <p><strong>smartFHE:</strong> Investigate the possibility of building privacy-preserving smart contract (PPSC) system that not only supports private payments, but also arbitrary computations over private data and accounts. The project aims to explore to what extent fully homomorphic encryption (which allow computation over encrypted data) combined with non-interactive zero knowledge proofs (to defend against malicious adversaries) can be utilized in achieving this goal. More about our PPSC framework can be found in our <a href="https://eprint.iacr.org/2021/133">paper</a>.</p>
-  </li>
-  <li>
-    <p><strong>Basing cryptography on biological polymers:</strong> In stealthy mode :)
-<br />
-<br /></p>
+    <p><strong>Distributed BPMS:</strong>  Distributed Business Process Management Systems is a proposal to explore business process management in multi-party relationship environment. The blockhain technology was used to enable the distribution and immuatble registries. This project have been developed by PUC-Rio and Petrobras under a RD&I agreement.
+    <p>
+      Papers related to this project:
+      <ul>
+        <li>
+          Alves, Paulo Henrique Cardoso, Ronnie Paskin, Isabella Frajhof, Yang Ricardo Miranda, João Gabriel Jardim, Jose Jorge Brum Cardoso, Eduardo Henrique Haddad Tress, Rogério Ferreira da Cunha, Rafael Nasser, and Gustavo Robichez. <a href="https://www.researchgate.net/publication/340032919_Exploring_Blockchain_Technology_to_Improve_Multi-Party_Relationship_in_Business_Process_Management_Systems">&quot;Exploring Blockchain Technology to Improve Multi-party Relationship in Business Process Management Systems."</a>. ICEIS 2020 , pp. 817-825. DOI: 10.5220/0009565108170825, 2020.
+        </li>
+      </ul>
+    </p>
   </li>
 </ul>
 
@@ -73,13 +103,63 @@
 
 <ul>
   <li>
-    <p><strong>CacheCash:</strong> A system that provides a decentralized content delivery network (CDN) service by forming a distributed bandwidth marketplace powered by a cryptocurrency. This project covered several components including a threat modeling framework for cryptocurrencies (<a href="https://ieeexplore.ieee.org/document/8845101">ABC, CryBlock 2019</a>), a defense mechanism against cache accounting attacks in peer-assisted CDNs (<a href="https://ieeexplore.ieee.org/document/8802825">CAPnet, IEEE CNS 2019</a>), a lightweight probabilistic micropayment scheme (<a href="https://link.springer.com/chapter/10.1007/978-3-030-51280-4_13">MicroCash, FC 2020</a>), and CacheCash (<a href="https://academiccommons.columbia.edu/doi/10.7916/d8-kmv2-7n57">CacheCash, PhD Thesis 2019</a>), the main system that integrates these modules together along with innovative cryptographic and financial security defenses.</p>
+    <p><strong>Enterprise Digital Signatures on Blockchain:</strong> 
+      AssinadorBR is a project focused on the use of blockchain smart contracts to sign documents in a distributed and immuatble manner. In this project we had to developed an architecture to centralizing costs without introducing a central authority in the Ethereum blockchain.
+    </p>
+     <p>
+      Papers related to this project:
+      <ul>
+        <li>
+          Paskin, Ronnie, Yang Ricardo Miranda, João Gabriel Jardim, Gustavo Robichez, Carlos Gama, Rosa Ladeira, Fernando Pellon, Paulo Henrique Alves, Rafael Nasser and Isabella Frajhof.  <a href="https://www.researchgate.net/publication/348536281_Blockchain_digital_signatures_in_a_big_corporation_a_challenge_for_costs_management_sector">&quot;Blockchain digital signatures in a big corporation: a challenge for costs management sector."</a>. Rio Oil and Gas (RO&G 2020), DOI: 10.48072/2525-7579.rog.2020.454, 2020.
+        </li>
+      </ul>
+    </p>
   </li>
   <li>
-    <p><strong>Privacy-preserving programming compiler extension:</strong> Build the first framework to support pointers to private data for privacy preserving programming compilers. This involved extending the PICCO compiler to implement this framework, and studying the efficiency trade-offs of using pointers to private data in secure algorithms and protocols. Read about this framework in our <a href="https://dl.acm.org/citation.cfm?id=3154600">TOPS 2017</a> paper.</p>
+    <p><strong>Blockchain application in the insurance environment:</strong> 
+      <a href="http://insurtech.les.inf.puc-rio.br/">Insurtech</a> is an innovation programan on the insurance area. Many undergraduated students from many cities in Brazil have the opportunitie to design, develop, and apply what they have learned in a multidisplinary group. Students from all graduation courses are welcome.
+    </p>
+     <p>
+      Papers related to this project:
+      <ul>
+        <li>
+          Alves, Paulo Henrique, Rafael Nasser, Gutavo Robichez. <a href="https://www.researchgate.net/publication/343588628_Blockchain_Desafios_e_Oportunidades_no_Setor_de_Seguros_-_Olhar_Sobre_a_Tecnologia_da_Informacao">&quot;Blockchain: Desafios e Oportunidades no Setor de Seguros - Olhar Sobre a Tecnologia da Informação", 2019.
+        </li>
+      </ul>
+    </p>
   </li>
   <li>
-    <p><strong>Privacy-preserving genome testing:</strong> Develop protocols that perform genome tests to detect gene mutations without revealing any information about the underlying genome sequences. This project was a submission to the 4th <a href="http://www.humangenomeprivacy.org/2015/">iDash Privacy &amp; Security Workshop</a> competition. Read about these protocols in our <a href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-15-S5-S4">BMC 2015</a> paper.</p>
+    <p><strong>Ethereum Bootcamp:</strong> The <a href="https://cce.puc-rio.br/sitecce/website/website.dll/folder?nCurso=bootcamp-de-desenvolvimento-de-contratos-inteligentes-em-solidity-para-ethereum&nInst=cce">Ethereum Bootcamp</a> is a course that aims to teach the basic concepts required to build and deploy a Solidity Smart Contract. This course is recommended for people from any backgroud. Until now, most of participants are from the Law sector.
+  </li>
+  <li>
+    <p><strong>Multiagents Systems with Personal Traits :</strong> 
+      I developed this project to my Master's final project to receive such degree. I worked with <a href="https://br.linkedin.com/in/marxviana">PhD Marx Leles Viana</a> and <a href="http://www.inf.puc-rio.br/en/teacher/carlos-jose-pereira-de-lucena/">professor Carlos José Pereira de Lucena</a> to develop multiagent systems considering the big 5 personal traits to simulate the agent behaviors in many situations.
+      </p>
+     <p>
+      Papers related to this project:
+      <ul>
+        <li>
+          Alves, Paulo Henrique Cardoso, Marx L. Viana, Helio Lopez, Simone Barbosa and Carlos José Pereira de Lucena. <a href="https://www.researchgate.net/publication/319052837_Working_Towards_a_BDI-Agent_Based_on_Personality_Traits_to_Improve_Normative_Conflicts_Solution"> &quot;Agentes de Software com Tracos de Personalidade baseados na Arquitetura BDI para Tomada de Decisoes Normativas."</a>, 2017.
+        </li>
+        <li>
+          Alves, Paulo Henrique Cardoso, Marx L. Viana, and Carlos José Pereira de Lucena. <a href="https://www.researchgate.net/publication/322879533_An_Architecture_for_Autonomous_Normative_BDI_Agents_based_on_Personality_Traits_to_Solve_Normative_Conflicts"> &quot;An Architecture for Autonomous Normative BDI Agents based on Personality Traits to Solve Normative Conflicts."</a> In ICAART, pp. 80-90. DOI:10.5220/0006599300800090, 2018.
+        </li>
+        <li>
+          Alves, Paulo Henrique Cardoso, Marx L. Viana, and Carlos José Pereira de Lucena. <a href="https://www.researchgate.net/publication/319052837_Working_Towards_a_BDI-Agent_Based_on_Personality_Traits_to_Improve_Normative_Conflicts_Solution"> &quot;Working Towards a BDI‑Agent Based on Personality Traits to Improve Normative Conflicts Solution."</a> In  International Conference on Software Engineering and Knowledge Engineering (SEKE), pp. 80-90. DOI:10.18293/SEKE2017-160, 2017.
+        </li>
+      </ul>
+    </p>
+  </li>
+  <li>
+    <p><strong>Telemedicine with Sana Mobile:</strong> <a href="https://sana.mit.edu/">Sana Mobile</a> is a MIT project that aims to allow medical consultation in remote areas with weak internet access.
+      <p>
+      Paper related to this project:
+      <ul>
+        <li>
+          de Carvalho, Alfredo Veiga, Carlos José Pereira de Lucena, Elder José Reioli Cirilo, Paulo Henrique Cardoso Alves, Pedro Augusto da Silva e Souza, Gustavo Robichez de Carvalho, Fábio Rodrigo Lopes de Araújo, and Gabriel Vial Correa Lima. <a href="https://www.researchgate.net/publication/296675398_Software_Engineering_in_Telehealth_an_Extension_of_Sana_Mobile_Applied_to_the_Process_of_a_Routine_Hospital">&quot;Software Engineering in Telehealth, an Extension of Sana Mobile Applied to the Process of a Routine Hospital."</a> In International Conference on Human-Computer Interaction, pp. 3-12. Springer, Berlin, Heidelberg, DOI: 10.1007/978-3-642-39262-7_1, 2013.
+        </li>
+      </ul>
+    </p>
   </li>
 </ul>
 
@@ -102,7 +182,7 @@
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>&quot;In theory, theory and practice are the same. In practice, they are not.” - Albert Einstein</p>
+        <p>&quot;A man who dares to waste one hour of time has not discovered the value of life. ― Charles Darwin</p>
       </div>
     </div>
 
